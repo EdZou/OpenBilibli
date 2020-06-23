@@ -11,7 +11,7 @@ http://git.bilibili.co/platform/go-common/tree/master/business/service/archive
 4,使用Rider构建以后（retag），回滚可以基于Rider的retag来回滚，而不是回滚大仓库的代码；
 
 5,提供RPC内部服务放置在business/service中，任务队列放置在business/job中，对外网关服务放置在business/interface，管理后台服务放置在business/admin
-
+ 
 6,每个业务自建cmd文件夹,将main.go文件和test配置文件迁移进去
 
 7,构建的时候自定义脚本选择krotos_buil.sh,自定义参数选择自己所在业务的路径 （ps：例如 interface/web-show）
